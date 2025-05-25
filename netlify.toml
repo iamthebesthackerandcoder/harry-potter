@@ -4,7 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  VITE_GEMINI_API_KEY = "AIzaSyADR8-xyQ4-2WLpGOiVg1_U3qKFfnFan6Y"
+  # Removed exposed API key - use environment variables in production
 
 [[redirects]]
   from = "/*"
